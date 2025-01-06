@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';  // Importar Link desde next/link
 
 const AboutUs = () => {
     return (
@@ -18,12 +19,12 @@ const AboutUs = () => {
                         <p className="text-lg text-gray-600 mb-6">
                             Our mission is to create the best products on earth, designed with precision and powered by the most advanced technology. We believe in the power of innovation and simplicity to make a meaningful impact in the world.
                         </p>
-                        <a
-                            href="/"
-                            className="inline-block text-blue-600 hover:text-blue-800 text-lg font-semibold"
-                        >
-                            Learn More
-                        </a>
+                        {/* Reemplazamos el <a> con <Link> */}
+                        <Link href="/">
+                            <a className="inline-block text-blue-600 hover:text-blue-800 text-lg font-semibold">
+                                Learn More
+                            </a>
+                        </Link>
                     </div>
 
                     <div className="relative w-full h-full">
