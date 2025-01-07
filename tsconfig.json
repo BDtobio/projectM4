@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/fonts/categorias", "src/app/views/Home.jsx", "src/app/pages/error404.tsx", "src/app/not-found/page.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/fonts/categorias", "src/app/views/Home.jsx", "src/app/not-found/error404.tsx", "src/app/not-found/page.js"],
   "exclude": ["node_modules"]
 }

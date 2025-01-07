@@ -1,31 +1,13 @@
 
-// import Link from "next/link";
-
-// export default function Landing() {
-//   return (
-//     <div
-//       className="h-screen bg-cover bg-center flex flex-col items-center justify-center text-white"
-//       style={{ backgroundImage: "url('https://cdn.pixabay.com/photo/2016/10/11/09/26/office-1730939_1280.jpg')" }}
-//     >
-      
-      
-//       <Link href="/home">
-//         <button className="bg-blue-500 text-white py-2 px-6 rounded hover:bg-blue-600 transition duration-300">
-//           Ir a la Tienda
-//         </button>
-//       </Link>
-//     </div>
-//   );
-// }
 import Link from "next/link";
 
 export default function Landing() {
   return (
     <div
-      className="h-screen bg-cover bg-center flex flex-col items-center justify-center text-white"
+      className="h-screen bg-cover bg-center flex flex-col items-center justify-center"
       style={{ backgroundImage: "url('https://cdn.pixabay.com/photo/2016/10/11/09/26/office-1730939_1280.jpg')" }}
     >
-      <h1 className="text-5xl font-semibold mb-8 text-gray-800 drop-shadow-lg">
+      <h1 className="text-6xl font-semibold mb-8 text-gray-800 drop-shadow-lg">
       Welcome to the Store
             </h1>
 

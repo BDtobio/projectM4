@@ -9,5 +9,6 @@ export interface NavItem {
     { text: 'Dashboard', path: '/dashboard' ,isPrivate:true },
     { text: 'Carrito', path: '/cart'  ,isPrivate:false },
     { text: 'About Us', path: '/aboutUs',isPrivate:false },
+  
   ];
   

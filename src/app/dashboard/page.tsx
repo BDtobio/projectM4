@@ -57,11 +57,12 @@ import { useAuth } from "@/contexts/AuthContext";
 import { usePrivate } from "@/hooks/usePrivate";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Order from "@/interfaces/IOrder";
 
 export default function Dashboard() {
   usePrivate();
   const { user, token } = useAuth();
-  const [userOrders, setUserOrders] = useState([]);
+  const [userOrders, setUserOrders] = useState<Order[]>([]);
 
   useEffect(() => {
     if (token) {
